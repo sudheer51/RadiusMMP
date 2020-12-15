@@ -12,7 +12,11 @@ import org.testng.annotations.Test;
 
 public class ScheduleAppointmentTests extends TestBaseClass
 {
- 
+    /**
+     * 
+     * Scheduling Appointment for a Patient module
+     * @throws InterruptedException
+     */
 	@Test
 	public void validateScheduleAppointment() throws InterruptedException
 	{
