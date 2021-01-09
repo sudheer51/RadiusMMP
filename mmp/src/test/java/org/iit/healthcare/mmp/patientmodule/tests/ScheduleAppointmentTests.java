@@ -8,6 +8,12 @@ import org.testng.annotations.Test;
 
 public class ScheduleAppointmentTests extends TestBaseClass
 {
+
+	@Test(description="Checking")
+	public void a1()
+	{
+	      System.out.println("*****************************Executing the Test1************************");
+	}
     /**
      * 
      * Scheduling Appointment for a Patient module
